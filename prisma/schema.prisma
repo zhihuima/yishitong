@@ -1,0 +1,73 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      String   @default("GUEST") // GUEST, MERCHANT, PARTNER
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  // Membership
+  membershipExpiry DateTime?
+  
+  // Relations
+  wallet    Wallet?
+  orders    Order[]
+}
+
+model Wallet {
+  id               String   @id @default(cuid())
+  userId           String   @unique
+  user             User     @relation(fields: [userId], references: [id])
+  principalBalance Float    @default(0.0) // Real money, withdrawable/universal
+  bonusBalance     Float    @default(0.0) // Gift money, restricted
+  updatedAt        DateTime @updatedAt
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  category    String   // SAAS, SUPPLY_CHAIN, SERVICE
+  price       Float    // Base price (C-end or standard)
+  memberPrice Float?   // Discounted price for partners
+  description String?
+  
+  // Relations
+  orders      Order[]
+}
+
+model Order {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id])
+  quantity    Int      @default(1)
+  totalAmount Float
+  status      String   @default("PENDING") // PENDING, COMPLETED, CANCELLED
+  createdAt   DateTime @default(now())
+  
+  // Payment Details
+  pincipalDeducted Float @default(0.0)
+  bonusDeducted    Float @default(0.0)
+}
+
+model Transaction {
+  id        String   @id @default(cuid())
+  walletId  String
+  amount    Float
+  type      String   // DEPOSIT, SPEND, REFUND
+  balanceType String // PRINCIPAL, BONUS
+  createdAt DateTime @default(now())
+}

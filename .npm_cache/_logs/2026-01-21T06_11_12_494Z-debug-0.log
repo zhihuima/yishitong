@@ -1,0 +1,805 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/mazhihui/Desktop/yishitong/.npmrc
+5 silly config load:file:/Users/mazhihui/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install prisma@5.22.0 @prisma/client@5.22.0
+8 verbose argv "install" "prisma@5.22.0" "@prisma/client@5.22.0" "--save-dev"
+9 verbose logfile logs-max:10 dir:/Users/mazhihui/Desktop/yishitong/.npm_cache/_logs/2026-01-21T06_11_12_494Z-
+10 verbose logfile /Users/mazhihui/Desktop/yishitong/.npm_cache/_logs/2026-01-21T06_11_12_494Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 warn idealTree Removing dependencies.prisma in favor of devDependencies.prisma
+14 warn idealTree Removing dependencies.@prisma/client in favor of devDependencies.@prisma/client
+15 silly idealTree buildDeps
+16 silly fetch manifest prisma@5.22.0
+17 silly packumentCache full:https://registry.npmjs.org/prisma cache-miss
+18 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+19 http fetch GET 200 https://registry.npmjs.org/prisma 2681ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/prisma set size:undefined disposed:false
+21 silly fetch manifest @prisma/client@5.22.0
+22 silly packumentCache full:https://registry.npmjs.org/@prisma%2fclient cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/@prisma%2fclient 1474ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/@prisma%2fclient set size:undefined disposed:false
+25 silly placeDep ROOT @prisma/client@5.22.0 REPLACE for: temp_app@0.1.0 want: 5.22.0
+26 silly placeDep ROOT prisma@5.22.0 REPLACE for: temp_app@0.1.0 want: 5.22.0
+27 silly fetch manifest @prisma/engines@5.22.0
+28 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines cache-miss
+29 silly fetch manifest fsevents@2.3.3
+30 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/@prisma%2fengines 783ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines set size:undefined disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/fsevents 1065ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+35 silly placeDep ROOT @prisma/engines@5.22.0 OK for: prisma@5.22.0 want: 5.22.0
+36 silly placeDep ROOT fsevents@2.3.3 OK for: prisma@5.22.0 want: 2.3.3
+37 silly fetch manifest @prisma/debug@5.22.0
+38 silly packumentCache full:https://registry.npmjs.org/@prisma%2fdebug cache-miss
+39 silly fetch manifest @prisma/fetch-engine@5.22.0
+40 silly packumentCache full:https://registry.npmjs.org/@prisma%2ffetch-engine cache-miss
+41 silly fetch manifest @prisma/get-platform@5.22.0
+42 silly packumentCache full:https://registry.npmjs.org/@prisma%2fget-platform cache-miss
+43 silly fetch manifest @prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+44 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines-version cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@prisma%2fdebug 1637ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@prisma%2fdebug set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/@prisma%2fengines-version 2775ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/@prisma%2fengines-version set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/@prisma%2fget-platform 3610ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@prisma%2fget-platform set size:undefined disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/@prisma%2ffetch-engine 8126ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/@prisma%2ffetch-engine set size:undefined disposed:false
+53 silly placeDep ROOT @prisma/debug@5.22.0 OK for: @prisma/engines@5.22.0 want: 5.22.0
+54 silly placeDep ROOT @prisma/engines-version@5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2 OK for: @prisma/engines@5.22.0 want: 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
+55 silly placeDep ROOT @prisma/fetch-engine@5.22.0 OK for: @prisma/engines@5.22.0 want: 5.22.0
+56 silly placeDep ROOT @prisma/get-platform@5.22.0 OK for: @prisma/engines@5.22.0 want: 5.22.0
+57 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/aws-ssl-profiles' ]
+58 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/c12' ]
+59 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/chokidar' ]
+60 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/citty' ]
+61 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/chevrotain' ]
+62 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/confbox' ]
+63 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/consola' ]
+64 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/deepmerge-ts' ]
+65 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/defu' ]
+66 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/destr' ]
+67 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/dotenv' ]
+68 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/effect' ]
+69 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/denque' ]
+70 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/empathic' ]
+71 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/exsolve' ]
+72 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/foreground-child' ]
+73 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/get-port-please' ]
+74 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/generate-function' ]
+75 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/fast-check' ]
+76 silly reify mark retired [
+76 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/giget',
+76 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/giget'
+76 silly reify ]
+77 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/grammex' ]
+78 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/http-status-codes' ]
+79 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/iconv-lite' ]
+80 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/hono' ]
+81 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/is-property' ]
+82 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/lilconfig' ]
+83 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/lodash' ]
+84 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/long' ]
+85 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/lru.min' ]
+86 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/mysql2' ]
+87 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/node-fetch-native' ]
+88 silly reify mark retired [
+88 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/nypm',
+88 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/nypm'
+88 silly reify ]
+89 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/named-placeholders' ]
+90 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/ohash' ]
+91 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/pathe' ]
+92 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/pkg-types' ]
+93 silly reify mark retired [
+93 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/prisma',
+93 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/prisma'
+93 silly reify ]
+94 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/postgres' ]
+95 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/pure-rand' ]
+96 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/rc9' ]
+97 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/perfect-debounce' ]
+98 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/regexp-to-ast' ]
+99 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/remeda' ]
+100 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/proper-lockfile' ]
+101 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/readdirp' ]
+102 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/retry' ]
+103 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/safer-buffer' ]
+104 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/seq-queue' ]
+105 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/std-env' ]
+106 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/sqlstring' ]
+107 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/signal-exit' ]
+108 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/tinyexec' ]
+109 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/type-fest' ]
+110 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/valibot' ]
+111 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/zeptomatch' ]
+112 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/gast' ]
+113 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/utils' ]
+114 silly reify mark retired [
+114 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/pglite'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/pglite-tools'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/pglite-socket',
+116 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/pglite-server'
+116 silly reify ]
+117 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/types' ]
+118 silly reify mark retired [
+118 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/cst-dts-gen'
+118 silly reify ]
+119 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@hono/node-server' ]
+120 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/client' ]
+121 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/config' ]
+122 silly reify mark retired [
+122 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/engines-version'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/client-runtime-utils'
+123 silly reify ]
+124 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/debug' ]
+125 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/dev' ]
+126 silly reify mark retired [
+126 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/query-plan-executor'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/get-platform'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/fetch-engine'
+128 silly reify ]
+129 silly reify mark retired [ '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/engines' ]
+130 silly reify mark retired [
+130 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/studio-core'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@mrleebo/prisma-ast'
+131 silly reify ]
+132 silly reify moves {
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/aws-ssl-profiles': '/Users/mazhihui/Desktop/yishitong/node_modules/.aws-ssl-profiles-LObzrpcr',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/c12': '/Users/mazhihui/Desktop/yishitong/node_modules/.c12-0oZxi9DG',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/chokidar': '/Users/mazhihui/Desktop/yishitong/node_modules/.chokidar-9dYuqiAg',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/citty': '/Users/mazhihui/Desktop/yishitong/node_modules/.citty-OdwnxAon',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/chevrotain': '/Users/mazhihui/Desktop/yishitong/node_modules/.chevrotain-nfhytaP0',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/confbox': '/Users/mazhihui/Desktop/yishitong/node_modules/.confbox-WVhqSq4s',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/consola': '/Users/mazhihui/Desktop/yishitong/node_modules/.consola-sIqPtfqU',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/deepmerge-ts': '/Users/mazhihui/Desktop/yishitong/node_modules/.deepmerge-ts-pbP64eOf',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/defu': '/Users/mazhihui/Desktop/yishitong/node_modules/.defu-BII47gil',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/destr': '/Users/mazhihui/Desktop/yishitong/node_modules/.destr-mklL6VBl',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/dotenv': '/Users/mazhihui/Desktop/yishitong/node_modules/.dotenv-50NIVtVq',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/effect': '/Users/mazhihui/Desktop/yishitong/node_modules/.effect-LVfVjwv6',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/denque': '/Users/mazhihui/Desktop/yishitong/node_modules/.denque-RaTYr0Wj',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/empathic': '/Users/mazhihui/Desktop/yishitong/node_modules/.empathic-zbPWLayX',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/exsolve': '/Users/mazhihui/Desktop/yishitong/node_modules/.exsolve-2TLdJoXc',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/foreground-child': '/Users/mazhihui/Desktop/yishitong/node_modules/.foreground-child-mb8jevIa',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/get-port-please': '/Users/mazhihui/Desktop/yishitong/node_modules/.get-port-please-mYdOg14y',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/generate-function': '/Users/mazhihui/Desktop/yishitong/node_modules/.generate-function-aRiEHBAa',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/fast-check': '/Users/mazhihui/Desktop/yishitong/node_modules/.fast-check-RHF5qTyq',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/giget': '/Users/mazhihui/Desktop/yishitong/node_modules/.giget-Jyws517t',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/giget': '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/.giget-lkWkzZCK',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/grammex': '/Users/mazhihui/Desktop/yishitong/node_modules/.grammex-Yr6gRXWI',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/http-status-codes': '/Users/mazhihui/Desktop/yishitong/node_modules/.http-status-codes-ko5wHCbN',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/iconv-lite': '/Users/mazhihui/Desktop/yishitong/node_modules/.iconv-lite-j8G2Py7P',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/hono': '/Users/mazhihui/Desktop/yishitong/node_modules/.hono-FmfrWmUN',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/is-property': '/Users/mazhihui/Desktop/yishitong/node_modules/.is-property-iqSWLJiJ',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/lilconfig': '/Users/mazhihui/Desktop/yishitong/node_modules/.lilconfig-H8vdplN5',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/lodash': '/Users/mazhihui/Desktop/yishitong/node_modules/.lodash-cFeI5JpC',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/long': '/Users/mazhihui/Desktop/yishitong/node_modules/.long-HkeKhylE',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/lru.min': '/Users/mazhihui/Desktop/yishitong/node_modules/.lru.min-voNwu76c',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/mysql2': '/Users/mazhihui/Desktop/yishitong/node_modules/.mysql2-qoULFJWL',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/node-fetch-native': '/Users/mazhihui/Desktop/yishitong/node_modules/.node-fetch-native-Li5Ira8U',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/nypm': '/Users/mazhihui/Desktop/yishitong/node_modules/.nypm-nVRYFXjh',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/nypm': '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/.nypm-hnEwwc7B',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/named-placeholders': '/Users/mazhihui/Desktop/yishitong/node_modules/.named-placeholders-v2Fa7kPQ',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/ohash': '/Users/mazhihui/Desktop/yishitong/node_modules/.ohash-hyY7mBOr',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/pathe': '/Users/mazhihui/Desktop/yishitong/node_modules/.pathe-6DdeW80o',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/pkg-types': '/Users/mazhihui/Desktop/yishitong/node_modules/.pkg-types-pEWJFQqi',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/prisma': '/Users/mazhihui/Desktop/yishitong/node_modules/.prisma-dcy6NkWl',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/prisma': '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/.prisma-lNWVbosx',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/postgres': '/Users/mazhihui/Desktop/yishitong/node_modules/.postgres-8hlKF73K',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/pure-rand': '/Users/mazhihui/Desktop/yishitong/node_modules/.pure-rand-23do2lb1',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/rc9': '/Users/mazhihui/Desktop/yishitong/node_modules/.rc9-CacbImHZ',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/perfect-debounce': '/Users/mazhihui/Desktop/yishitong/node_modules/.perfect-debounce-b71A3dow',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/regexp-to-ast': '/Users/mazhihui/Desktop/yishitong/node_modules/.regexp-to-ast-F0FY2o4L',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/remeda': '/Users/mazhihui/Desktop/yishitong/node_modules/.remeda-GG2D6Khj',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/proper-lockfile': '/Users/mazhihui/Desktop/yishitong/node_modules/.proper-lockfile-s9ZrXNOg',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/readdirp': '/Users/mazhihui/Desktop/yishitong/node_modules/.readdirp-haSk9qLB',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/retry': '/Users/mazhihui/Desktop/yishitong/node_modules/.retry-AD7WLdwK',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/safer-buffer': '/Users/mazhihui/Desktop/yishitong/node_modules/.safer-buffer-2Aq30sW6',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/seq-queue': '/Users/mazhihui/Desktop/yishitong/node_modules/.seq-queue-RVoNCr4q',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/std-env': '/Users/mazhihui/Desktop/yishitong/node_modules/.std-env-oymCJhsc',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/sqlstring': '/Users/mazhihui/Desktop/yishitong/node_modules/.sqlstring-dzwW0E8d',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/signal-exit': '/Users/mazhihui/Desktop/yishitong/node_modules/.signal-exit-jXWbkJET',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/tinyexec': '/Users/mazhihui/Desktop/yishitong/node_modules/.tinyexec-HYw5f4LM',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/type-fest': '/Users/mazhihui/Desktop/yishitong/node_modules/.type-fest-45TlQzTU',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/valibot': '/Users/mazhihui/Desktop/yishitong/node_modules/.valibot-AT6myArL',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/zeptomatch': '/Users/mazhihui/Desktop/yishitong/node_modules/.zeptomatch-bMs2iK3q',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/gast': '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/.gast-hYD7Gm67',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/utils': '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/.utils-KbL4a2sz',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/pglite': '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/.pglite-Uzs8vDeU',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/pglite-tools': '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/.pglite-tools-hy61U7dz',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/pglite-socket': '/Users/mazhihui/Desktop/yishitong/node_modules/@electric-sql/.pglite-socket-RcYEvaXF',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/pglite-server': '/Users/mazhihui/Desktop/yishitong/node_modules/.bin/.pglite-server-rSC9Aj7T',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/types': '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/.types-AV7mdiCD',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/cst-dts-gen': '/Users/mazhihui/Desktop/yishitong/node_modules/@chevrotain/.cst-dts-gen-P9Fv37Id',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@hono/node-server': '/Users/mazhihui/Desktop/yishitong/node_modules/@hono/.node-server-k1QHfJKh',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/client': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.client-Iq8sgdCy',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/config': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.config-bX9zUqWU',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/engines-version': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.engines-version-bgBe433t',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/client-runtime-utils': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.client-runtime-utils-TEQlpTH1',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/debug': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.debug-rXAv0ZQ9',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/dev': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.dev-MkF1s4OW',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/query-plan-executor': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.query-plan-executor-sR6PwEGU',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/get-platform': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.get-platform-LlFR3Lck',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/fetch-engine': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.fetch-engine-KlACAgaU',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/engines': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.engines-aqWGg40y',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/studio-core': '/Users/mazhihui/Desktop/yishitong/node_modules/@prisma/.studio-core-rPcWBD8t',
+132 silly reify   '/Users/mazhihui/Desktop/yishitong/node_modules/@mrleebo/prisma-ast': '/Users/mazhihui/Desktop/yishitong/node_modules/@mrleebo/.prisma-ast-icL6APFc'
+132 silly reify }
+133 silly audit bulk request {
+133 silly audit   '@ai-sdk/gateway': [ '3.0.17' ],
+133 silly audit   '@ai-sdk/provider': [ '3.0.4' ],
+133 silly audit   '@ai-sdk/provider-utils': [ '4.0.8' ],
+133 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+133 silly audit   '@babel/code-frame': [ '7.28.6' ],
+133 silly audit   '@babel/compat-data': [ '7.28.6' ],
+133 silly audit   '@babel/core': [ '7.28.6' ],
+133 silly audit   '@babel/generator': [ '7.28.6' ],
+133 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+133 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+133 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+133 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+133 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+133 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+133 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+133 silly audit   '@babel/helpers': [ '7.28.6' ],
+133 silly audit   '@babel/parser': [ '7.28.6' ],
+133 silly audit   '@babel/template': [ '7.28.6' ],
+133 silly audit   '@babel/traverse': [ '7.28.6' ],
+133 silly audit   '@babel/types': [ '7.28.6' ],
+133 silly audit   '@emnapi/core': [ '1.8.1' ],
+133 silly audit   '@emnapi/runtime': [ '1.8.1' ],
+133 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+133 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+133 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+133 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+133 silly audit   '@eslint/config-array': [ '0.21.1' ],
+133 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+133 silly audit   '@eslint/core': [ '0.17.0' ],
+133 silly audit   '@eslint/eslintrc': [ '3.3.3' ],
+133 silly audit   '@eslint/js': [ '9.39.2' ],
+133 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+133 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+133 silly audit   '@google/generative-ai': [ '0.24.1' ],
+133 silly audit   '@humanfs/core': [ '0.19.1' ],
+133 silly audit   '@humanfs/node': [ '0.16.7' ],
+133 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+133 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+133 silly audit   '@img/colour': [ '1.0.0' ],
+133 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+133 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+133 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+133 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+133 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+133 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+133 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+133 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+133 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+133 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+133 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+133 silly audit   '@next/env': [ '16.1.4' ],
+133 silly audit   '@next/eslint-plugin-next': [ '16.1.4' ],
+133 silly audit   '@next/swc-darwin-arm64': [ '16.1.4' ],
+133 silly audit   '@next/swc-darwin-x64': [ '16.1.4' ],
+133 silly audit   '@next/swc-linux-arm64-gnu': [ '16.1.4' ],
+133 silly audit   '@next/swc-linux-arm64-musl': [ '16.1.4' ],
+133 silly audit   '@next/swc-linux-x64-gnu': [ '16.1.4' ],
+133 silly audit   '@next/swc-linux-x64-musl': [ '16.1.4' ],
+133 silly audit   '@next/swc-win32-arm64-msvc': [ '16.1.4' ],
+133 silly audit   '@next/swc-win32-x64-msvc': [ '16.1.4' ],
+133 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+133 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+133 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+133 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+133 silly audit   '@opentelemetry/api': [ '1.9.0' ],
+133 silly audit   '@rtsao/scc': [ '1.1.0' ],
+133 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+133 silly audit   '@swc/helpers': [ '0.5.15' ],
+133 silly audit   '@tailwindcss/node': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.18' ],
+133 silly audit   '@tailwindcss/postcss': [ '4.1.18' ],
+133 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+133 silly audit   '@types/estree': [ '1.0.8' ],
+133 silly audit   '@types/json-schema': [ '7.0.15' ],
+133 silly audit   '@types/json5': [ '0.0.29' ],
+133 silly audit   '@types/node': [ '20.19.30' ],
+133 silly audit   '@types/react': [ '19.2.9' ],
+133 silly audit   '@types/react-dom': [ '19.2.3' ],
+133 silly audit   '@typescript-eslint/eslint-plugin': [ '8.53.1' ],
+133 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+133 silly audit   '@typescript-eslint/parser': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/project-service': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/scope-manager': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/type-utils': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/types': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/typescript-estree': [ '8.53.1' ],
+133 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+133 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+133 silly audit   semver: [ '7.7.3', '6.3.1' ],
+133 silly audit   '@typescript-eslint/utils': [ '8.53.1' ],
+133 silly audit   '@typescript-eslint/visitor-keys': [ '8.53.1' ],
+133 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+133 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+133 silly audit   '@vercel/oidc': [ '3.1.0' ],
+133 silly audit   acorn: [ '8.15.0' ],
+133 silly audit   'acorn-jsx': [ '5.3.2' ],
+133 silly audit   ai: [ '6.0.42' ],
+133 silly audit   ajv: [ '6.12.6' ],
+133 silly audit   'ansi-styles': [ '4.3.0' ],
+133 silly audit   argparse: [ '2.0.1' ],
+133 silly audit   'aria-query': [ '5.3.2' ],
+133 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+133 silly audit   'array-includes': [ '3.1.9' ],
+133 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+133 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+133 silly audit   'array.prototype.flat': [ '1.3.3' ],
+133 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+133 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+133 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+133 silly audit   'ast-types-flow': [ '0.0.8' ],
+133 silly audit   'async-function': [ '1.0.0' ],
+133 silly audit   'available-typed-arrays': [ '1.0.7' ],
+133 silly audit   'axe-core': [ '4.11.1' ],
+133 silly audit   'axobject-query': [ '4.1.0' ],
+133 silly audit   'balanced-match': [ '1.0.2' ],
+133 silly audit   'baseline-browser-mapping': [ '2.9.16' ],
+133 silly audit   braces: [ '3.0.3' ],
+133 silly audit   browserslist: [ '4.28.1' ],
+133 silly audit   'call-bind': [ '1.0.8' ],
+133 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+133 silly audit   'call-bound': [ '1.0.4' ],
+133 silly audit   callsites: [ '3.1.0' ],
+133 silly audit   'caniuse-lite': [ '1.0.30001765' ],
+133 silly audit   chalk: [ '4.1.2' ],
+133 silly audit   'class-variance-authority': [ '0.7.1' ],
+133 silly audit   'client-only': [ '0.0.1' ],
+133 silly audit   clsx: [ '2.1.1' ],
+133 silly audit   'color-convert': [ '2.0.1' ],
+133 silly audit   'color-name': [ '1.1.4' ],
+133 silly audit   'concat-map': [ '0.0.1' ],
+133 silly audit   'convert-source-map': [ '2.0.0' ],
+133 silly audit   'cross-spawn': [ '7.0.6' ],
+133 silly audit   csstype: [ '3.2.3' ],
+133 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+133 silly audit   'data-view-buffer': [ '1.0.2' ],
+133 silly audit   'data-view-byte-length': [ '1.0.2' ],
+133 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+133 silly audit   debug: [ '4.4.3', '3.2.7' ],
+133 silly audit   'deep-is': [ '0.1.4' ],
+133 silly audit   'define-data-property': [ '1.1.4' ],
+133 silly audit   'define-properties': [ '1.2.1' ],
+133 silly audit   'detect-libc': [ '2.1.2' ],
+133 silly audit   doctrine: [ '2.1.0' ],
+133 silly audit   'dunder-proto': [ '1.0.1' ],
+133 silly audit   'electron-to-chromium': [ '1.5.267' ],
+133 silly audit   'emoji-regex': [ '9.2.2' ],
+133 silly audit   'enhanced-resolve': [ '5.18.4' ],
+133 silly audit   'es-abstract': [ '1.24.1' ],
+133 silly audit   'es-define-property': [ '1.0.1' ],
+133 silly audit   'es-errors': [ '1.3.0' ],
+133 silly audit   'es-iterator-helpers': [ '1.2.2' ],
+133 silly audit   'es-object-atoms': [ '1.1.1' ],
+133 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+133 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+133 silly audit   'es-to-primitive': [ '1.3.0' ],
+133 silly audit   escalade: [ '3.2.0' ],
+133 silly audit   'escape-string-regexp': [ '4.0.0' ],
+133 silly audit   eslint: [ '9.39.2' ],
+133 silly audit   'eslint-config-next': [ '16.1.4' ],
+133 silly audit   globals: [ '16.4.0', '14.0.0' ],
+133 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+133 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+133 silly audit   'eslint-module-utils': [ '2.12.1' ],
+133 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+133 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+133 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+133 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+133 silly audit   resolve: [ '2.0.0-next.5', '1.22.11' ],
+133 silly audit   'eslint-scope': [ '8.4.0' ],
+133 silly audit   espree: [ '10.4.0' ],
+133 silly audit   esquery: [ '1.7.0' ],
+133 silly audit   esrecurse: [ '4.3.0' ],
+133 silly audit   estraverse: [ '5.3.0' ],
+133 silly audit   esutils: [ '2.0.3' ],
+133 silly audit   'eventsource-parser': [ '3.0.6' ],
+133 silly audit   'fast-deep-equal': [ '3.1.3' ],
+133 silly audit   'fast-glob': [ '3.3.1' ],
+133 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+133 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+133 silly audit   'fast-levenshtein': [ '2.0.6' ],
+133 silly audit   fastq: [ '1.20.1' ],
+133 silly audit   'file-entry-cache': [ '8.0.0' ],
+133 silly audit   'fill-range': [ '7.1.1' ],
+133 silly audit   'find-up': [ '5.0.0' ],
+133 silly audit   'flat-cache': [ '4.0.1' ],
+133 silly audit   flatted: [ '3.3.3' ],
+133 silly audit   'for-each': [ '0.3.5' ],
+133 silly audit   'framer-motion': [ '12.27.5' ],
+133 silly audit   'function-bind': [ '1.1.2' ],
+133 silly audit   'function.prototype.name': [ '1.1.8' ],
+133 silly audit   'functions-have-names': [ '1.2.3' ],
+133 silly audit   'generator-function': [ '2.0.1' ],
+133 silly audit   gensync: [ '1.0.0-beta.2' ],
+133 silly audit   'get-intrinsic': [ '1.3.0' ],
+133 silly audit   'get-proto': [ '1.0.1' ],
+133 silly audit   'get-symbol-description': [ '1.1.0' ],
+133 silly audit   'get-tsconfig': [ '4.13.0' ],
+133 silly audit   globalthis: [ '1.0.4' ],
+133 silly audit   gopd: [ '1.2.0' ],
+133 silly audit   'graceful-fs': [ '4.2.11' ],
+133 silly audit   'has-bigints': [ '1.1.0' ],
+133 silly audit   'has-flag': [ '4.0.0' ],
+133 silly audit   'has-property-descriptors': [ '1.0.2' ],
+133 silly audit   'has-proto': [ '1.2.0' ],
+133 silly audit   'has-symbols': [ '1.1.0' ],
+133 silly audit   'has-tostringtag': [ '1.0.2' ],
+133 silly audit   hasown: [ '2.0.2' ],
+133 silly audit   'hermes-estree': [ '0.25.1' ],
+133 silly audit   'hermes-parser': [ '0.25.1' ],
+133 silly audit   'import-fresh': [ '3.3.1' ],
+133 silly audit   imurmurhash: [ '0.1.4' ],
+133 silly audit   'internal-slot': [ '1.1.0' ],
+133 silly audit   'is-array-buffer': [ '3.0.5' ],
+133 silly audit   'is-async-function': [ '2.1.1' ],
+133 silly audit   'is-bigint': [ '1.1.0' ],
+133 silly audit   'is-boolean-object': [ '1.2.2' ],
+133 silly audit   'is-bun-module': [ '2.0.0' ],
+133 silly audit   'is-callable': [ '1.2.7' ],
+133 silly audit   'is-core-module': [ '2.16.1' ],
+133 silly audit   'is-data-view': [ '1.0.2' ],
+133 silly audit   'is-date-object': [ '1.1.0' ],
+133 silly audit   'is-extglob': [ '2.1.1' ],
+133 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+133 silly audit   'is-generator-function': [ '1.1.2' ],
+133 silly audit   'is-glob': [ '4.0.3' ],
+133 silly audit   'is-map': [ '2.0.3' ],
+133 silly audit   'is-negative-zero': [ '2.0.3' ],
+133 silly audit   'is-number': [ '7.0.0' ],
+133 silly audit   'is-number-object': [ '1.1.1' ],
+133 silly audit   'is-regex': [ '1.2.1' ],
+133 silly audit   'is-set': [ '2.0.3' ],
+133 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+133 silly audit   'is-string': [ '1.1.1' ],
+133 silly audit   'is-symbol': [ '1.1.1' ],
+133 silly audit   'is-typed-array': [ '1.1.15' ],
+133 silly audit   'is-weakmap': [ '2.0.2' ],
+133 silly audit   'is-weakref': [ '1.1.1' ],
+133 silly audit   'is-weakset': [ '2.0.4' ],
+133 silly audit   isarray: [ '2.0.5' ],
+133 silly audit   isexe: [ '2.0.0' ],
+133 silly audit   'iterator.prototype': [ '1.1.5' ],
+133 silly audit   jiti: [ '2.6.1' ],
+133 silly audit   'js-tokens': [ '4.0.0' ],
+133 silly audit   'js-yaml': [ '4.1.1' ],
+133 silly audit   jsesc: [ '3.1.0' ],
+133 silly audit   'json-buffer': [ '3.0.1' ],
+133 silly audit   'json-schema': [ '0.4.0' ],
+133 silly audit   'json-schema-traverse': [ '0.4.1' ],
+133 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+133 silly audit   json5: [ '2.2.3', '1.0.2' ],
+133 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+133 silly audit   keyv: [ '4.5.4' ],
+133 silly audit   'language-subtag-registry': [ '0.3.23' ],
+133 silly audit   'language-tags': [ '1.0.9' ],
+133 silly audit   levn: [ '0.4.1' ],
+133 silly audit   lightningcss: [ '1.30.2' ],
+133 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+133 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+133 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+133 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+133 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+133 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+133 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+133 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+133 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+133 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+133 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+133 silly audit   'locate-path': [ '6.0.0' ],
+133 silly audit   'lodash.merge': [ '4.6.2' ],
+133 silly audit   'loose-envify': [ '1.4.0' ],
+133 silly audit   'lru-cache': [ '5.1.1' ],
+133 silly audit   'lucide-react': [ '0.562.0' ],
+133 silly audit   'magic-string': [ '0.30.21' ],
+133 silly audit   'math-intrinsics': [ '1.1.0' ],
+133 silly audit   merge2: [ '1.4.1' ],
+133 silly audit   micromatch: [ '4.0.8' ],
+133 silly audit   minimist: [ '1.2.8' ],
+133 silly audit   'motion-dom': [ '12.27.5' ],
+133 silly audit   'motion-utils': [ '12.27.2' ],
+133 silly audit   ms: [ '2.1.3' ],
+133 silly audit   nanoid: [ '3.3.11' ],
+133 silly audit   'napi-postinstall': [ '0.3.4' ],
+133 silly audit   'natural-compare': [ '1.4.0' ],
+133 silly audit   next: [ '16.1.4' ],
+133 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+133 silly audit   'node-releases': [ '2.0.27' ],
+133 silly audit   'object-assign': [ '4.1.1' ],
+133 silly audit   'object-inspect': [ '1.13.4' ],
+133 silly audit   'object-keys': [ '1.1.1' ],
+133 silly audit   'object.assign': [ '4.1.7' ],
+133 silly audit   'object.entries': [ '1.1.9' ],
+133 silly audit   'object.fromentries': [ '2.0.8' ],
+133 silly audit   'object.groupby': [ '1.0.3' ],
+133 silly audit   'object.values': [ '1.2.1' ],
+133 silly audit   optionator: [ '0.9.4' ],
+133 silly audit   'own-keys': [ '1.0.1' ],
+133 silly audit   'p-limit': [ '3.1.0' ],
+133 silly audit   'p-locate': [ '5.0.0' ],
+133 silly audit   'parent-module': [ '1.0.1' ],
+133 silly audit   'path-exists': [ '4.0.0' ],
+133 silly audit   'path-key': [ '3.1.1' ],
+133 silly audit   'path-parse': [ '1.0.7' ],
+133 silly audit   picocolors: [ '1.1.1' ],
+133 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+133 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+133 silly audit   'prelude-ls': [ '1.2.1' ],
+133 silly audit   'prop-types': [ '15.8.1' ],
+133 silly audit   punycode: [ '2.3.1' ],
+133 silly audit   'queue-microtask': [ '1.2.3' ],
+133 silly audit   react: [ '19.2.3' ],
+133 silly audit   'react-dom': [ '19.2.3' ],
+133 silly audit   'react-is': [ '16.13.1' ],
+133 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+133 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+133 silly audit   'resolve-from': [ '4.0.0' ],
+133 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+133 silly audit   reusify: [ '1.1.0' ],
+133 silly audit   'run-parallel': [ '1.2.0' ],
+133 silly audit   'safe-array-concat': [ '1.1.3' ],
+133 silly audit   'safe-push-apply': [ '1.0.0' ],
+133 silly audit   'safe-regex-test': [ '1.1.0' ],
+133 silly audit   scheduler: [ '0.27.0' ],
+133 silly audit   'set-function-length': [ '1.2.2' ],
+133 silly audit   'set-function-name': [ '2.0.2' ],
+133 silly audit   'set-proto': [ '1.0.0' ],
+133 silly audit   sharp: [ '0.34.5' ],
+133 silly audit   'shebang-command': [ '2.0.0' ],
+133 silly audit   'shebang-regex': [ '3.0.0' ],
+133 silly audit   'side-channel': [ '1.1.0' ],
+133 silly audit   'side-channel-list': [ '1.0.0' ],
+133 silly audit   'side-channel-map': [ '1.0.1' ],
+133 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+133 silly audit   'source-map-js': [ '1.2.1' ],
+133 silly audit   'stable-hash': [ '0.0.5' ],
+133 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+133 silly audit   'string.prototype.includes': [ '2.0.1' ],
+133 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+133 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+133 silly audit   'string.prototype.trim': [ '1.2.10' ],
+133 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+133 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+133 silly audit   'strip-bom': [ '3.0.0' ],
+133 silly audit   'strip-json-comments': [ '3.1.1' ],
+133 silly audit   'styled-jsx': [ '5.1.6' ],
+133 silly audit   'supports-color': [ '7.2.0' ],
+133 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+133 silly audit   'tailwind-merge': [ '3.4.0' ],
+133 silly audit   tailwindcss: [ '4.1.18' ],
+133 silly audit   tapable: [ '2.3.0' ],
+133 silly audit   tinyglobby: [ '0.2.15' ],
+133 silly audit   fdir: [ '6.5.0' ],
+133 silly audit   'to-regex-range': [ '5.0.1' ],
+133 silly audit   'ts-api-utils': [ '2.4.0' ],
+133 silly audit   'tsconfig-paths': [ '3.15.0' ],
+133 silly audit   tslib: [ '2.8.1' ],
+133 silly audit   'tw-animate-css': [ '1.4.0' ],
+133 silly audit   'type-check': [ '0.4.0' ],
+133 silly audit   'typed-array-buffer': [ '1.0.3' ],
+133 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+133 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+133 silly audit   'typed-array-length': [ '1.0.7' ],
+133 silly audit   typescript: [ '5.9.3' ],
+133 silly audit   'typescript-eslint': [ '8.53.1' ],
+133 silly audit   'unbox-primitive': [ '1.1.0' ],
+133 silly audit   'undici-types': [ '6.21.0' ],
+133 silly audit   'unrs-resolver': [ '1.11.1' ],
+133 silly audit   'update-browserslist-db': [ '1.2.3' ],
+133 silly audit   'uri-js': [ '4.4.1' ],
+133 silly audit   which: [ '2.0.2' ],
+133 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+133 silly audit   'which-builtin-type': [ '1.2.1' ],
+133 silly audit   'which-collection': [ '1.0.2' ],
+133 silly audit   'which-typed-array': [ '1.1.20' ],
+133 silly audit   'word-wrap': [ '1.2.5' ],
+133 silly audit   yallist: [ '3.1.1' ],
+133 silly audit   'yocto-queue': [ '0.1.0' ],
+133 silly audit   zod: [ '4.3.5' ],
+133 silly audit   'zod-validation-error': [ '4.0.2' ],
+133 silly audit   '@prisma/client': [ '5.22.0' ],
+133 silly audit   prisma: [ '5.22.0' ],
+133 silly audit   '@prisma/engines': [ '5.22.0' ],
+133 silly audit   fsevents: [ '2.3.3' ],
+133 silly audit   '@prisma/debug': [ '5.22.0' ],
+133 silly audit   '@prisma/engines-version': [ '5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2' ],
+133 silly audit   '@prisma/fetch-engine': [ '5.22.0' ],
+133 silly audit   '@prisma/get-platform': [ '5.22.0' ]
+133 silly audit }
+134 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+135 http cache @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz 0ms (cache hit)
+136 http cache @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz 0ms (cache hit)
+137 http cache @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz 0ms (cache hit)
+138 http cache @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz 0ms (cache hit)
+139 http cache @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz 0ms (cache hit)
+140 http cache prisma@https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz 0ms (cache hit)
+141 http cache @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz 0ms (cache hit)
+142 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+143 silly tarball no local data for @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz. Extracting by manifest.
+144 silly tarball no local data for @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz. Extracting by manifest.
+145 silly tarball no local data for @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz. Extracting by manifest.
+146 silly tarball no local data for @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz. Extracting by manifest.
+147 silly tarball no local data for @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz. Extracting by manifest.
+148 silly tarball no local data for prisma@https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz. Extracting by manifest.
+149 silly tarball no local data for @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz. Extracting by manifest.
+150 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 199ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz 213ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz 226ms (cache miss)
+153 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 303ms
+154 silly audit report {}
+155 http fetch GET 200 https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz 620ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz 993ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz 1110ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz 1702ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz 2148ms (cache miss)
+160 info run prisma@5.22.0 preinstall node_modules/prisma node scripts/preinstall-entry.js
+161 info run prisma@5.22.0 preinstall { code: 0, signal: null }
+162 info run fsevents@2.3.3 install node_modules/fsevents node-gyp rebuild
+163 info run fsevents@2.3.3 install { code: 1, signal: null }
+164 verbose reify failed optional dependency /Users/mazhihui/Desktop/yishitong/node_modules/fsevents
+165 silly reify mark deleted [ '/Users/mazhihui/Desktop/yishitong/node_modules/fsevents' ]
+166 info run @prisma/client@5.22.0 postinstall node_modules/@prisma/client node scripts/postinstall.js
+167 info run @prisma/engines@5.22.0 postinstall node_modules/@prisma/engines node scripts/postinstall.js
+168 info run @prisma/client@5.22.0 postinstall { code: 0, signal: null }
+169 info run @prisma/engines@5.22.0 postinstall { code: 0, signal: null }
+170 silly ADD
+171 silly REMOVE node_modules/@mrleebo/prisma-ast
+172 silly REMOVE node_modules/@prisma/studio-core
+173 silly CHANGE node_modules/@prisma/engines
+174 silly REMOVE node_modules/@prisma/engines/node_modules/@prisma/get-platform
+175 silly CHANGE node_modules/@prisma/fetch-engine
+176 silly REMOVE node_modules/@prisma/fetch-engine/node_modules/@prisma/get-platform
+177 silly CHANGE node_modules/@prisma/get-platform
+178 silly REMOVE node_modules/@prisma/get-platform/node_modules/@prisma/debug
+179 silly REMOVE node_modules/@prisma/query-plan-executor
+180 silly REMOVE node_modules/@prisma/dev
+181 silly CHANGE node_modules/@prisma/debug
+182 silly REMOVE node_modules/@prisma/client-runtime-utils
+183 silly CHANGE node_modules/@prisma/engines-version
+184 silly REMOVE node_modules/@prisma/config
+185 silly CHANGE node_modules/@prisma/client
+186 silly REMOVE node_modules/@hono/node-server
+187 silly REMOVE node_modules/@chevrotain/cst-dts-gen
+188 silly REMOVE node_modules/@chevrotain/types
+189 silly REMOVE node_modules/@electric-sql/pglite-socket
+190 silly REMOVE node_modules/@electric-sql/pglite-tools
+191 silly REMOVE node_modules/@electric-sql/pglite
+192 silly REMOVE node_modules/@chevrotain/utils
+193 silly REMOVE node_modules/@chevrotain/gast
+194 silly REMOVE node_modules/zeptomatch
+195 silly REMOVE node_modules/valibot
+196 silly REMOVE node_modules/type-fest
+197 silly REMOVE node_modules/tinyexec
+198 silly REMOVE node_modules/signal-exit
+199 silly REMOVE node_modules/sqlstring
+200 silly REMOVE node_modules/std-env
+201 silly REMOVE node_modules/seq-queue
+202 silly REMOVE node_modules/safer-buffer
+203 silly REMOVE node_modules/retry
+204 silly REMOVE node_modules/readdirp
+205 silly REMOVE node_modules/proper-lockfile
+206 silly REMOVE node_modules/proper-lockfile/node_modules/signal-exit
+207 silly REMOVE node_modules/remeda
+208 silly REMOVE node_modules/regexp-to-ast
+209 silly REMOVE node_modules/perfect-debounce
+210 silly REMOVE node_modules/rc9
+211 silly REMOVE node_modules/pure-rand
+212 silly REMOVE node_modules/postgres
+213 silly CHANGE node_modules/prisma
+214 silly REMOVE node_modules/pkg-types
+215 silly REMOVE node_modules/pathe
+216 silly REMOVE node_modules/ohash
+217 silly REMOVE node_modules/named-placeholders
+218 silly REMOVE node_modules/nypm
+219 silly REMOVE node_modules/nypm/node_modules/citty
+220 silly REMOVE node_modules/node-fetch-native
+221 silly REMOVE node_modules/mysql2
+222 silly REMOVE node_modules/lru.min
+223 silly REMOVE node_modules/long
+224 silly REMOVE node_modules/lodash
+225 silly REMOVE node_modules/lilconfig
+226 silly REMOVE node_modules/is-property
+227 silly REMOVE node_modules/hono
+228 silly REMOVE node_modules/iconv-lite
+229 silly REMOVE node_modules/http-status-codes
+230 silly REMOVE node_modules/grammex
+231 silly REMOVE node_modules/giget
+232 silly REMOVE node_modules/fast-check
+233 silly REMOVE node_modules/generate-function
+234 silly REMOVE node_modules/get-port-please
+235 silly REMOVE node_modules/foreground-child
+236 silly REMOVE node_modules/exsolve
+237 silly REMOVE node_modules/empathic
+238 silly REMOVE node_modules/denque
+239 silly REMOVE node_modules/effect
+240 silly REMOVE node_modules/dotenv
+241 silly REMOVE node_modules/destr
+242 silly REMOVE node_modules/defu
+243 silly REMOVE node_modules/deepmerge-ts
+244 silly REMOVE node_modules/consola
+245 silly REMOVE node_modules/confbox
+246 silly REMOVE node_modules/chevrotain
+247 silly REMOVE node_modules/citty
+248 silly REMOVE node_modules/chokidar
+249 silly REMOVE node_modules/c12
+250 silly REMOVE node_modules/aws-ssl-profiles
+251 verbose cwd /Users/mazhihui/Desktop/yishitong
+252 verbose os Darwin 25.3.0
+253 verbose node v24.12.0
+254 verbose npm  v11.6.2
+255 verbose exit 0
+256 info ok
